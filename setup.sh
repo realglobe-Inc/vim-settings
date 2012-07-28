@@ -1,9 +1,9 @@
 #!/bin/sh
-pip install pep8
-pip install nose
-pip install nose_machineout
-pip install vim_bridge
-pip install mock
+easy_install pep8
+easy_install nose
+esay_install nose_machineout
+easy_install vim_bridge
+easy_install mock
 
 if [ -e ~/.vimrc ] ; then
     mv ~/.vimrc ~/.vimrc_back
