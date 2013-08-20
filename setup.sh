@@ -3,6 +3,7 @@ pip install pep8
 pip install nose
 pip install nose_machineout
 pip install vim_bridge
+pip install falke8
 
 pip install mock
 
